@@ -42,5 +42,5 @@ def connect_with_middleware(contract_json):
 
 
 if __name__ == "__main__":
-	connect_to_eth()
-    connect_with_middleware(contract_json)
+	w3_eth = connect_to_eth()
+    w3_bnb, contract_bnb = connect_with_middleware("contract_info.json")
