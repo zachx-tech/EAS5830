@@ -1,8 +1,8 @@
 import requests
 import json
 
-PINATA_API_KEY = '38da8d631102f70347b9'
-PINATA_SECRET_API_KEY = 'c1d21cc823c9b6a952d4e4ecc693ebacd8c470b66fd3cdbd421d1c983e51b77c'
+PINATA_API_KEY = 'f193d79143472c874f97'
+PINATA_SECRET_API_KEY = 'fad8fd96dc528d6ce5eb420590a1bd9857fc9956db0e401e158408f35ec3b29e'
 PINATA_PIN_FILE_URL = 'https://api.pinata.cloud/pinning/pinJSONToIPFS'
 PINATA_GATEWAY_URL = 'https://gateway.pinata.cloud/ipfs/'
 
