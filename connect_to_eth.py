@@ -25,7 +25,7 @@ def connect_with_middleware(contract_json):
         address = d['address']
         abi = d['abi']
 
-    bsc_url = "https://bsc-dataseed.binance.org/"  # BSC mainnet public RPC
+    bsc_url = "https://bsc-testnet.infura.io/v3/e261d32b37184d0cb02c36b1dc7ec5fc"  # BSC mainnet public RPC
 
     
     w3 = Web3(HTTPProvider(bsc_url))
