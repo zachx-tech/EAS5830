@@ -10,11 +10,11 @@ def pin_to_ipfs(data):
     assert isinstance(data, dict), "Error: pin_to_ipfs expects a dictionary"
 
     # Your Pinata API credentials
-    pinata_api_key = "a2cd687fe44848166a56"  # Replace with your actual key
-    pinata_secret_api_key = "c8008f094efa729e3b404c712c0c825beff2dc05ee0c83fa30e1758dc3cad118"  # Replace with your actual secret key
+    pinata_api_key = PINATA_API_KEY  # Replace with your actual key
+    pinata_secret_api_key = PINATA_SECRET_API_KEY  # Replace with your actual secret key
 
     # Pinata API endpoint for pinning JSON
-    url = "https://api.pinata.cloud/pinning/pinJSONToIPFS"
+    url = PINATA_PIN_FILE_URL
 
     # Headers for authentication
     headers = {
