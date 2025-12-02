@@ -34,7 +34,7 @@ def scan_blocks(chain, start_block, end_block, contract_address, eventfile='depo
     contract = w3.eth.contract(address=contract_address, abi=DEPOSIT_ABI)
 
     arg_filter = {}
-
+    rows = []
     if start_block == "latest":
         start_block = w3.eth.get_block_number()
     if end_block == "latest":
